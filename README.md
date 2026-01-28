@@ -2,6 +2,8 @@
 
 Este repositório contém dois projetos principais relacionados à análise e predição de qualidade em processos de mineração. Os projetos utilizam dados de um processo de flotação para prever a concentração de sílica em um processo de mineração.
 
+Run requirements.txt para garantir que as versões de bibliotecas serão as mesmas 
+
 ## Estrutura do Repositório
 
 ```
@@ -80,5 +82,4 @@ model, rmse, y_pred = silica_pred.train_model(X_train, y_train, X_test, y_test)
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias ou correções.
 
-## Licença
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+link da base: https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process/data
